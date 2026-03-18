@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Instagram, MessageCircle } from "lucide-react";
+import { MapPin, Instagram, MessageCircle, Mail } from "lucide-react";
 
 const Contato = () => {
   return (
