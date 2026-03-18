@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Yoga, Cog, HeartHandshake } from "lucide-react";
+import { Accessibility, Cog, HeartHandshake } from "lucide-react";
 
 const services = [
   {
