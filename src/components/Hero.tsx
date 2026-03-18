@@ -12,7 +12,7 @@ const Hero = () => {
             transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
           >
             <p className="text-primary font-medium text-sm tracking-wide uppercase mb-4">
-              Pilates Studio
+              Studio Tridimensional Pilates
             </p>
             <h1 className="font-heading text-4xl md:text-5xl font-medium tracking-tight leading-[1.1] text-foreground mb-6" style={{ letterSpacing: "-0.02em", textWrap: "balance" }}>
               Transforme seu corpo e sua qualidade de vida com Pilates
