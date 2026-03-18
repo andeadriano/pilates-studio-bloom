@@ -86,7 +86,7 @@ const Contato = () => {
             </div>
             <div className="text-center">
               <p className="font-heading font-medium text-foreground mb-1">Endereço</p>
-              <p className="text-muted-foreground text-sm">Rua das Flores, 123<br />Centro – São Paulo</p>
+              <p className="text-muted-foreground text-sm">Rua Manoel Estevão da Costa, 298<br />Loja 02, Iputinga<br />Recife – PE</p>
             </div>
           </motion.div>
         </div>
