@@ -21,7 +21,7 @@ const Hero = () => {
               Melhore sua postura, alivie dores e conquiste mais bem-estar com acompanhamento individualizado e profissionais qualificados.
             </p>
             <a
-              href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma aula experimental."
+              href="https://wa.me/5581986870839?text=Olá! Gostaria de agendar uma aula experimental."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-2xl font-medium text-base transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-lg active:scale-95"
