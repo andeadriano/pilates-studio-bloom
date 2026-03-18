@@ -3,7 +3,7 @@ import { Accessibility, Cog, HeartHandshake } from "lucide-react";
 
 const services = [
   {
-    icon: Yoga,
+    icon: Accessibility,
     title: "Pilates Solo",
     description: "Exercícios no solo com foco em consciência corporal, flexibilidade e fortalecimento do core. Ideal para iniciantes e praticantes avançados.",
   },
