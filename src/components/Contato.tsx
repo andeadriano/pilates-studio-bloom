@@ -34,7 +34,7 @@ const Contato = () => {
             </div>
             <div className="text-center">
               <p className="font-heading font-medium text-foreground mb-1">WhatsApp</p>
-              <p className="text-muted-foreground text-sm">(11) 99999-9999</p>
+              <p className="text-muted-foreground text-sm">(81) 98687-0839</p>
             </div>
           </motion.a>
 
