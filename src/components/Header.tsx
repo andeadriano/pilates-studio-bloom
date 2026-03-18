@@ -72,7 +72,7 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma aula experimental."
+              href="https://wa.me/5581986870839?text=Olá! Gostaria de agendar uma aula experimental."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-primary-foreground px-5 py-3 rounded-xl text-sm font-medium text-center mt-2 transition-all duration-200 active:scale-95"

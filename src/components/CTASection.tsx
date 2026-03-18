@@ -19,7 +19,7 @@ const CTASection = () => {
             Dê o primeiro passo para uma vida com menos dor e mais movimento. Sua aula experimental é gratuita.
           </p>
           <a
-            href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma aula experimental."
+            href="https://wa.me/5581986870839?text=Olá! Gostaria de agendar uma aula experimental."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-primary-foreground text-primary px-8 py-4 rounded-2xl font-medium text-base transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-lg active:scale-95"

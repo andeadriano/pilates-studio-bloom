@@ -20,7 +20,7 @@ const Contato = () => {
 
         <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
           <motion.a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5581986870839"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center gap-4 p-8 rounded-2xl bg-background card-shadow transition-all duration-200 hover:card-shadow-hover hover:-translate-y-0.5"
