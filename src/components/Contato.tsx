@@ -18,7 +18,7 @@ const Contato = () => {
           </h2>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-3xl mx-auto">
           <motion.a
             href="https://wa.me/5581986870839"
             target="_blank"
