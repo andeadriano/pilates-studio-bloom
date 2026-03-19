@@ -51,7 +51,7 @@ const Contato = () => {
             </div>
             <div className="text-center">
               <p className="font-heading font-medium text-foreground mb-1">E-mail</p>
-              <p className="text-muted-foreground text-xs break-all">atendimento@tridimissionalpilates.com.br</p>
+              <p className="text-muted-foreground text-xs break-all">atendimento@tridimensionalpilates.com.br</p>
             </div>
           </motion.a>
 
