@@ -7,7 +7,6 @@ import Depoimentos from "@/components/Depoimentos";
 import CTASection from "@/components/CTASection";
 import Contato from "@/components/Contato";
 import Footer from "@/components/Footer";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const Index = () => {
   return (
@@ -23,7 +22,6 @@ const Index = () => {
         <Contato />
       </main>
       <Footer />
-      <FloatingWhatsApp />
     </div>
   );
 };
