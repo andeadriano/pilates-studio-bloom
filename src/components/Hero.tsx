@@ -38,10 +38,10 @@ const Hero = () => {
             <div className="relative">
               <img
                 src={heroPilates}
-                alt="Mulher praticando Pilates no reformer em estúdio moderno"
-                className="w-full aspect-[4/5] object-cover rounded-3xl"
-                style={{ outline: "1px solid rgba(0,0,0,0.05)", outlineOffset: "-1px" }}
-                loading="eager"
+                 alt="Mulher praticando Pilates no reformer em estúdio moderno"
+                 className="w-full h-[720px] object-contain rounded-3xl bg-white"
+                 style={{ outline: "1px solid rgba(0,0,0,0.05)", outlineOffset: "-1px" }}
+                 loading="eager"
               />
             </div>
           </motion.div>
