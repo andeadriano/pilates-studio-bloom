@@ -112,7 +112,7 @@ const Contato = () => {
                 Instagram
               </p>
               <p className="text-muted-foreground text-sm">
-                @tridimencionalpilates
+                @tridimensionalpilates
               </p>
             </div>
           </motion.a>
