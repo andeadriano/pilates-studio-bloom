@@ -5,8 +5,7 @@ const Contato = () => {
   return (
     <section id="contato" className="section-spacing bg-secondary/30">
       <div className="container-narrow">
-
-        {/* TITULO */}
+        {/* TÍTULO */}
         <motion.div
           className="max-w-2xl mx-auto text-center mb-16"
           initial={{ opacity: 0, y: 20 }}
@@ -25,11 +24,11 @@ const Contato = () => {
 
         {/* CARDS */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-
           {/* WHATSAPP 1 */}
           <motion.a
             href="https://wa.me/5581986870839"
             target="_blank"
+            rel="noopener noreferrer"
             className="flex flex-col items-center gap-4 p-8 rounded-2xl bg-background card-shadow hover:-translate-y-1 transition"
           >
             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
@@ -46,6 +45,7 @@ const Contato = () => {
           <motion.a
             href="https://wa.me/5581991766388"
             target="_blank"
+            rel="noopener noreferrer"
             className="flex flex-col items-center gap-4 p-8 rounded-2xl bg-background card-shadow hover:-translate-y-1 transition"
           >
             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
@@ -62,6 +62,7 @@ const Contato = () => {
           <motion.a
             href="https://instagram.com/tridimensionalpilates"
             target="_blank"
+            rel="noopener noreferrer"
             className="flex flex-col items-center gap-4 p-8 rounded-2xl bg-background card-shadow hover:-translate-y-1 transition"
           >
             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
@@ -92,7 +93,6 @@ const Contato = () => {
               </p>
             </div>
           </motion.a>
-
         </div>
 
         {/* ENDEREÇO */}
@@ -119,6 +119,26 @@ const Contato = () => {
           </div>
         </motion.div>
 
+        {/* MAPA */}
+        <motion.div
+          className="mt-8 max-w-5xl mx-auto"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <div className="rounded-3xl overflow-hidden bg-background card-shadow">
+            <iframe
+              title="Mapa Studio Tridimensional Pilates"
+              src="https://www.google.com/maps?q=Rua%20Manoel%20Estev%C3%A3o%20da%20Costa,%20298,%20Iputinga,%20Recife%20-%20PE&output=embed"
+              width="100%"
+              height="420"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </motion.div>
       </div>
     </section>
   );
