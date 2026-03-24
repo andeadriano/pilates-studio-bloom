@@ -14,7 +14,7 @@ const Index = () => {
       <Header />
 
       <main className="pt-16">
-        <section className="max-w-5xl mx-auto px-6 py-10">
+        <section className="sr-only">
           <h1 className="text-3xl font-bold mb-4">
             Pilates em Recife na Iputinga com atendimento terapêutico especializado
           </h1>
