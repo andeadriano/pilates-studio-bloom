@@ -11,6 +11,25 @@ import Contato from "@/components/Contato";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    name: "Studio Tridimensional Pilates",
+    url: "https://www.tridimensionalpilates.com.br/",
+    image: "https://www.tridimensionalpilates.com.br/favicon.ico",
+    telephone: "+55 81 98687-0839",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Rua Manoel Estevão da Costa, 298, Loja 02, Iputinga",
+      addressLocality: "Recife",
+      addressRegion: "PE",
+      postalCode: "50670-590",
+      addressCountry: "BR",
+    },
+    areaServed: ["Recife", "Iputinga", "Camaragibe"],
+    sameAs: ["https://www.instagram.com/tridimensionalpilates"],
+  };
+
   return (
     <>
       <Helmet>
@@ -32,14 +51,17 @@ const Index = () => {
           rel="canonical"
           href="https://www.tridimensionalpilates.com.br/"
         />
+
+        <script type="application/ld+json">
+          {JSON.stringify(localBusinessSchema)}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-background">
         <Header />
 
         <main className="pt-16">
-
-          {/* SEO TEXTO INVISÍVEL PARA GOOGLE */}
+          {/* SEO TEXTO PARA GOOGLE */}
           <section className="max-w-5xl mx-auto px-6 py-10">
             <h1 className="text-3xl font-bold mb-4">
               Pilates em Recife na Iputinga com atendimento terapêutico especializado
@@ -81,7 +103,6 @@ const Index = () => {
           <Depoimentos />
           <CTASection />
           <Contato />
-
         </main>
 
         <Footer />
