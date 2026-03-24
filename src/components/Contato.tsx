@@ -93,13 +93,13 @@ const Contato = () => {
             </div>
           </motion.a>
 
-        </div>
+          </div>
 
         {/* ENDEREÇO */}
         <motion.div
-          className="mt-8 max-w-sm mx-auto"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+                className="hidden mt-8 max-w-sm mx-auto"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
         >
           <div className="flex flex-col items-center gap-4 p-8 rounded-2xl bg-background card-shadow">
             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
