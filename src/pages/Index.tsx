@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import SobreEspaco from "@/components/SobreEspaco";
 import Beneficios from "@/components/Beneficios";
 import Servicos from "@/components/Servicos";
+import Equipe from "@/components/Equipe";
 import Depoimentos from "@/components/Depoimentos";
 import CTASection from "@/components/CTASection";
 import Contato from "@/components/Contato";
@@ -52,6 +53,7 @@ const Index = () => {
         <SobreEspaco />
         <Beneficios />
         <Servicos />
+        <Equipe />
         <Depoimentos />
         <CTASection />
         <Contato />
