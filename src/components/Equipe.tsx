@@ -6,7 +6,7 @@ export default function Equipe() {
         {/* Título */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-semibold text-[#1f3b2d] mb-3">
-            Por trás do Tridimensional Pilates
+            Por trás do Studio Pilates Tridimensional
           </h2>
 
           <p className="text-[#5f9f95] uppercase tracking-[0.2em] text-sm">
