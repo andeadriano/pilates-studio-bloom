@@ -29,7 +29,7 @@ export default function Equipe() {
 
             <div>
               <h3 className="text-3xl font-semibold text-[#1f3b2d]">
-                Edivania Lira
+                Dra. Edivania Lira
               </h3>
 
               <p className="text-[#5f9f95] mt-2 mb-6">
@@ -55,7 +55,7 @@ export default function Equipe() {
             <div className="order-2 md:order-1">
 
               <h3 className="text-3xl font-semibold text-[#1f3b2d]">
-                Sergio Vasconcelos
+                Dr. Sergio Vasconcelos
               </h3>
 
               <p className="text-[#5f9f95] mt-2 mb-6">
