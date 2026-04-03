@@ -29,7 +29,7 @@ export default function Equipe() {
 
             <div>
               <h3 className="text-3xl font-semibold text-[#1f3b2d]">
-                Dra. Edivania Lira
+                Dra. Edivania Lima
               </h3>
 
               <p className="text-[#5f9f95] mt-2 mb-6">
