@@ -22,7 +22,7 @@ export default function Equipe() {
             <div className="flex justify-center md:justify-start">
               <img
                 src="/edivania.jpg"
-                alt="Edivania Lira"
+                alt="Edivania Lima"
                 className="w-full max-w-[380px] rounded-[32px] object-cover shadow-md"
               />
             </div>
