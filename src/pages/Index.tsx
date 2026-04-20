@@ -8,6 +8,8 @@ import Depoimentos from "@/components/Depoimentos";
 import CTASection from "@/components/CTASection";
 import Contato from "@/components/Contato";
 import Footer from "@/components/Footer";
+import SeoLocal from "@/components/SeoLocal";
+import Avaliacoes from "@/components/Avaliacoes";
 
 const Index = () => {
   return (
@@ -53,6 +55,8 @@ const Index = () => {
         <SobreEspaco />
         <Beneficios />
         <Servicos />
+        <SeoLocal />
+        <Avaliacoes />
         <Equipe />
         <Depoimentos />
         <CTASection />
