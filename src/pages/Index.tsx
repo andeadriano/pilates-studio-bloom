@@ -4,12 +4,10 @@ import SobreEspaco from "@/components/SobreEspaco";
 import Beneficios from "@/components/Beneficios";
 import Servicos from "@/components/Servicos";
 import Equipe from "@/components/Equipe";
-import Depoimentos from "@/components/Depoimentos";
 import CTASection from "@/components/CTASection";
 import Contato from "@/components/Contato";
 import Footer from "@/components/Footer";
 import SeoLocal from "@/components/SeoLocal";
-import Avaliacoes from "@/components/Avaliacoes";
 
 const Index = () => {
   return (
@@ -56,9 +54,7 @@ const Index = () => {
         <Beneficios />
         <Servicos />
         <SeoLocal />
-        <Avaliacoes />
         <Equipe />
-        <Depoimentos />
         <CTASection />
         <Contato />
       </main>
