@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
-import heroPilates from "@/assets/hero-pilates.jpg";
+
+const heroPilates = "/pilates-studio.jpg";
 
 const Hero = () => {
   return (
     <section className="section-spacing pt-12 md:pt-20">
       <div className="container-narrow">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -14,12 +16,16 @@ const Hero = () => {
             <p className="text-primary font-medium text-sm tracking-wide uppercase mb-4">
               Studio Tridimensional Pilates
             </p>
-            <h1 className="font-heading text-4xl md:text-5xl font-medium tracking-tight leading-[1.1] text-foreground mb-6" style={{ letterSpacing: "-0.02em", textWrap: "balance" }}>
+
+            <h1 className="font-heading text-4xl md:text-5xl font-medium tracking-tight leading-[1.1] text-foreground mb-6"
+              style={{ letterSpacing: "-0.02em", textWrap: "balance" }}>
               Transforme seu corpo e sua qualidade de vida com Pilates
             </h1>
+
             <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-lg">
               Melhore sua postura, alivie dores e conquiste mais bem-estar com acompanhamento individualizado e profissionais qualificados.
             </p>
+
             <a
               href="https://wa.me/5581986870839?text=Olá! Gostaria de agendar uma aula experimental."
               target="_blank"
@@ -38,13 +44,13 @@ const Hero = () => {
             <div className="relative">
               <img
                 src={heroPilates}
-                 alt="Mulher praticando Pilates no reformer em estúdio moderno"
-                 className="w-full h-[720px] object-contain rounded-3xl bg-white"
-                 style={{ outline: "1px solid rgba(0,0,0,0.05)", outlineOffset: "-1px" }}
-                 loading="eager"
+                alt="Fachada do Studio Pilates Tridimensional"
+                className="w-full h-[720px] object-cover rounded-3xl"
+                loading="eager"
               />
             </div>
           </motion.div>
+
         </div>
       </div>
     </section>
