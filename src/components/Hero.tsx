@@ -17,13 +17,22 @@ const Hero = () => {
               Studio Tridimensional Pilates
             </p>
 
-            <h1 className="font-heading text-4xl md:text-5xl font-medium tracking-tight leading-[1.1] text-foreground mb-6"
-              style={{ letterSpacing: "-0.02em", textWrap: "balance" }}>
+            <h1
+              className="font-heading text-4xl md:text-5xl font-medium tracking-tight leading-[1.1] text-foreground mb-6"
+              style={{ letterSpacing: "-0.02em", textWrap: "balance" }}
+            >
               Transforme seu corpo e sua qualidade de vida com Pilates
             </h1>
 
+            {/* TEXTO SEO LOCAL */}
+            <p className="text-muted-foreground text-lg mb-4 max-w-xl">
+              📍 Pilates em Recife – Iputinga | Atendimento especializado em
+              postura, reabilitação e qualidade de vida.
+            </p>
+
             <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-lg">
-              Melhore sua postura, alivie dores e conquiste mais bem-estar com acompanhamento individualizado e profissionais qualificados.
+              Melhore sua postura, alivie dores e conquiste mais bem-estar com
+              acompanhamento individualizado e profissionais qualificados.
             </p>
 
             <a
@@ -44,7 +53,7 @@ const Hero = () => {
             <div className="relative">
               <img
                 src={heroPilates}
-                alt="Fachada do Studio Pilates Tridimensional"
+                alt="Fachada do Studio Pilates Tridimensional em Recife"
                 className="w-full h-[720px] object-cover rounded-3xl"
                 loading="eager"
               />
