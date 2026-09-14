@@ -8,7 +8,7 @@ export default function Hero() {
           <p className="eyebrow"><span className="status-dot" /> MOVIMENTO. EQUILÍBRIO. BEM-ESTAR.</p>
           <h1 id="hero-title">Seu corpo em<br /><em>movimento.</em><br />Sua vida em equilíbrio.</h1>
           <p className="hero-description">Pilates e fisioterapia com um olhar atento a você. Cuidado individualizado para se movimentar melhor e viver com mais bem-estar.</p>
-          <a className="button-primary" href="https://wa.me/5581986870839?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank" rel="noopener noreferrer">Olá! Gostaria de agendar uma aula de Pilates. <ArrowUpRight size={19} aria-hidden="true" /></a>
+          <a className="button-primary" href="https://wa.me/5581986870839?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20de%20Pilates." target="_blank" rel="noopener noreferrer">Agendar uma aula <ArrowUpRight size={19} aria-hidden="true" /></a>
           <p className="hero-note"><Check size={15} aria-hidden="true" /> Agendamento rápido pelo WhatsApp</p>
           <a className="hero-location" href="#contato"><MapPin size={16} aria-hidden="true" /> Pilates na Iputinga, Recife <ArrowUpRight size={14} aria-hidden="true" /></a>
         </div>
