@@ -39,7 +39,9 @@ const Contato = () => {
 
             <div className="text-center">
               <p className="font-heading font-medium mb-1">WhatsApp</p>
-              <p className="text-muted-foreground text-sm">(81) 98687-0839</p>
+              <p className="text-muted-foreground text-sm">
+                (81) 98687-0839
+              </p>
             </div>
           </motion.a>
 
@@ -56,7 +58,9 @@ const Contato = () => {
 
             <div className="text-center">
               <p className="font-heading font-medium mb-1">WhatsApp</p>
-              <p className="text-muted-foreground text-sm">(81) 99176-6388</p>
+              <p className="text-muted-foreground text-sm">
+                (81) 99176-6388
+              </p>
             </div>
           </motion.a>
 
@@ -96,13 +100,15 @@ const Contato = () => {
             </div>
           </motion.a>
 
-          </div>
+        </div>
 
         {/* ENDEREÇO */}
         <motion.div
-                className="mt-8 max-w-5xl mx-auto"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+          className="mt-8 max-w-5xl mx-auto"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
         >
           <div className="flex flex-col items-center gap-4 p-8 rounded-2xl bg-background card-shadow">
             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
@@ -111,12 +117,15 @@ const Contato = () => {
 
             <div className="text-center">
               <p className="font-heading font-medium mb-1">Endereço</p>
+
               <p className="text-muted-foreground text-sm">
                 Rua Manoel Estevão da Costa, 298
                 <br />
                 Loja 02 — Iputinga
                 <br />
                 Recife — PE
+                <br />
+                CEP 50670-590
               </p>
             </div>
           </div>
@@ -127,15 +136,18 @@ const Contato = () => {
           className="mt-8 max-w-5xl mx-auto"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
         >
           <div className="rounded-3xl overflow-hidden bg-background card-shadow">
             <iframe
-              title="Mapa Studio Tridimensional Pilates"
-              src="https://www.google.com/maps?q=Rua%20Manoel%20Estev%C3%A3o%20da%20Costa,%20298,%20Iputinga,%20Recife%20-%20PE&output=embed"
+              title="Mapa Studio Pilates Tridimensional"
+              src="https://www.google.com/maps?q=Studio+Pilates+Tridimensional,+Recife,+PE&output=embed"
               width="100%"
               height="420"
               style={{ border: 0 }}
               loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
         </motion.div>
@@ -145,13 +157,16 @@ const Contato = () => {
           className="mt-6 text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
         >
           <a
-            href="https://www.google.com/maps/search/?api=1&query=Rua+Manoel+Estevão+da+Costa,+298,+Iputinga,+Recife+-+PE"
+            href="https://www.google.com/maps/search/?api=1&query=Studio+Pilates+Tridimensional+Recife"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-primary text-primary-foreground font-medium transition hover:opacity-90"
           >
+            <MapPin size={18} className="mr-2" />
             Como chegar
           </a>
         </motion.div>
