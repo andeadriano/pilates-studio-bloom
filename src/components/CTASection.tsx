@@ -16,10 +16,10 @@ const CTASection = () => {
             Agende sua primeira aula agora
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-lg mx-auto">
-            Dê o primeiro passo para uma vida com menos dor e mais movimento. Sua aula experimental é gratuita.
+            Dê o primeiro passo para uma vida com menos dor e mais movimento. Agende sua aula pelo WhatsApp.
           </p>
           <a
-            href="https://wa.me/5581986870839?text=Olá! Gostaria de agendar uma aula experimental."
+            href="https://wa.me/5581986870839?text=Olá! Olá! Gostaria de agendar uma aula de Pilates."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-primary-foreground text-primary px-8 py-4 rounded-2xl font-medium text-base transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-lg active:scale-95"
