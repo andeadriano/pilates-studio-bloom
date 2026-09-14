@@ -95,7 +95,7 @@ export default function Equipe() {
             rel="noopener noreferrer"
             className="inline-block bg-primary hover:opacity-90 text-white px-8 py-4 rounded-full text-lg transition"
           >
-            Agendar aula experimental
+            Agendar uma aula
           </a>
         </div>
 
