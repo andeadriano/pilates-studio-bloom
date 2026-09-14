@@ -1,29 +1,29 @@
 export default function Equipe() {
   return (
-    <section className="bg-[#f8f3eb] py-24 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section id="equipe" className="team-section section-spacing">
+      <div className="container-narrow">
 
         {/* Título */}
-        <div className="text-center mb-20">
+        <div className="team-heading mb-12">
           <h2 className="text-4xl md:text-5xl font-semibold text-[#1f3b2d] mb-3">
-            Por trás do Studio Pilates Tridimensional
+            Cuidado de perto. Conhecimento que acolhe.
           </h2>
 
-          <p className="text-[#5f9f95] uppercase tracking-[0.2em] text-sm">
+          <p className="text-primary uppercase tracking-[0.2em] text-sm">
             Nossa equipe
           </p>
         </div>
 
-        <div className="space-y-24">
+        <div className="team-grid">
 
           {/* Edivania */}
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="team-card">
 
-            <div className="flex justify-center md:justify-start">
+            <div className="team-photo">
               <img
                 src="/edivania.jpg"
-                alt="Edivania Lima"
-                className="w-full max-w-[380px] rounded-[32px] object-cover shadow-md"
+                alt="Fisioterapeuta Edivania Lima" loading="lazy" width="600" height="750"
+                className="team-portrait"
               />
             </div>
 
@@ -32,7 +32,7 @@ export default function Equipe() {
                 Dra. Edivania Lima
               </h3>
 
-              <p className="text-[#5f9f95] mt-2 mb-6">
+              <p className="text-primary mt-2 mb-6">
                 Fisioterapeuta | Instrutora de Pilates
               </p>
 
@@ -50,15 +50,15 @@ export default function Equipe() {
           </div>
 
           {/* Sergio */}
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="team-card">
 
-            <div className="order-2 md:order-1">
+            <div className="team-bio">
 
               <h3 className="text-3xl font-semibold text-[#1f3b2d]">
                 Dr. Sergio Vasconcelos
               </h3>
 
-              <p className="text-[#5f9f95] mt-2 mb-6">
+              <p className="text-primary mt-2 mb-6">
                 Fisioterapeuta | Instrutor de Pilates
               </p>
 
@@ -75,11 +75,11 @@ export default function Equipe() {
 
             </div>
 
-            <div className="order-1 md:order-2 flex justify-center md:justify-end">
+            <div className="team-photo">
               <img
                 src="/sergio.jpg"
-                alt="Sergio Vasconcelos"
-                className="w-full max-w-[380px] rounded-[32px] object-cover shadow-md"
+                alt="Fisioterapeuta Sergio Vasconcelos" loading="lazy" width="600" height="750"
+                className="team-portrait"
               />
             </div>
 
@@ -88,12 +88,12 @@ export default function Equipe() {
         </div>
 
         {/* Botão */}
-        <div className="text-center mt-20">
+        <div className="text-center mt-12">
           <a
             href="https://wa.me/5581986870839"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#5f9f95] hover:bg-[#4c8a80] text-white px-8 py-4 rounded-full text-lg transition"
+            className="inline-block bg-primary hover:opacity-90 text-white px-8 py-4 rounded-full text-lg transition"
           >
             Agendar aula experimental
           </a>

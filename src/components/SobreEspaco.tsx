@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { User, Award, Move3D } from "lucide-react";
 
 const features = [
-  { icon: User, title: "Atendimento personalizado", description: "Cada sessão é adaptada às suas necessidades específicas, garantindo resultados eficazes e seguros." },
+  { icon: User, title: "Atendimento personalizado", description: "Cada sessão é adaptada às suas necessidades específicas, respeitando seus objetivos e seu ritmo." },
   { icon: Award, title: "Profissionais qualificados", description: "Nossa equipe possui formação especializada e experiência comprovada em reabilitação e condicionamento." },
   { icon: Move3D, title: "Movimento em 3 dimensões", description: "Trabalhamos o corpo de forma tridimensional, promovendo equilíbrio muscular e funcionalidade completa." },
 ];
@@ -18,7 +18,7 @@ const SobreEspaco = () => {
   return (
     <section id="sobre" className="section-spacing">
       <div className="container-narrow">
-        <motion.div className="max-w-2xl mb-16" {...fadeUp}>
+        <motion.div className="about-intro mb-12" {...fadeUp}>
           <p className="text-primary font-medium text-sm tracking-wide uppercase mb-4">Sobre o Espaço</p>
           <h2 className="font-heading text-3xl md:text-4xl font-medium tracking-tight text-foreground mb-6" style={{ letterSpacing: "-0.02em" }}>
             Onde o movimento encontra o equilíbrio
