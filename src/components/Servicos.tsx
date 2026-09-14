@@ -9,6 +9,7 @@ import {
   Bone,
   HandHeart,
   Wind,
+  ArrowUpRight,
 } from "lucide-react";
 
 const services = [
@@ -86,21 +87,21 @@ const Servicos = () => {
             className="font-heading text-3xl md:text-4xl font-medium tracking-tight text-foreground"
             style={{ letterSpacing: "-0.02em" }}
           >
-            Encontre a modalidade ideal para você
+            Diferentes caminhos. Um cuidado completo.
           </h2>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((s, i) => (
+          {[...services].sort((a, b) => ["Pilates", "Fisioterapia", "Pilates Especial", "RPG", "Liberação Miofascial", "Terapia Manual", "Acupuntura", "Ventosaterapia", "Atendimento Domiciliar"].indexOf(a.title) - ["Pilates", "Fisioterapia", "Pilates Especial", "RPG", "Liberação Miofascial", "Terapia Manual", "Acupuntura", "Ventosaterapia", "Atendimento Domiciliar"].indexOf(b.title)).map((s, i) => (
             <motion.div
               key={s.title}
-              className="group bg-secondary/50 p-8 rounded-2xl transition-all duration-200 hover:bg-secondary card-shadow"
+              className="service-card group"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{
                 duration: 0.5,
-                delay: i * 0.1,
+                delay: (i % 3) * 0.06,
                 ease: [0.25, 0.1, 0.25, 1],
               }}
             >
@@ -113,6 +114,7 @@ const Servicos = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {s.description}
               </p>
+              <a className="service-link" href={`https://wa.me/5581986870839?text=${encodeURIComponent(`Olá! Gostaria de saber mais sobre ${s.title}.`)}`} target="_blank" rel="noopener noreferrer" aria-label={`Saiba mais sobre ${s.title} pelo WhatsApp`}>Saiba mais <ArrowUpRight size={16} aria-hidden="true" /></a>
             </motion.div>
           ))}
         </div>
