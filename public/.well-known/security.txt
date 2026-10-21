@@ -1,0 +1,4 @@
+Contact: mailto:andersonlira1000@hotmail.com
+Expires: 2027-10-21T23:59:59Z
+Preferred-Languages: pt-BR, en
+Canonical: https://tridimensionalpilates.com.br/.well-known/security.txt
